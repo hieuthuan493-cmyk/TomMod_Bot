@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # Lấy Token từ biến môi trường trên Railway (hoặc thay trực tiếp token bot của mày vào đây)
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "THAY_TOKEN_BOT_VÀO_ĐÂY_NẾU_CHƯA_CÓ_ENV")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8825960720:AAEHOLZILY1e0QDaIULQNBCUXjF0CrfZmUY")
 
 # Danh sách 100 câu chửi tục / câu spam vô hạn
 spam_texts = [
