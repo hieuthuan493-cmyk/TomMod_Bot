@@ -3,8 +3,8 @@ import asyncio
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-# Lấy Token từ biến môi trường trên Railway (hoặc thay trực tiếp token bot của mày vào đây)
-TOKEN = os.getenv("TOKEN", "8882626353:AAFlup4z-OxSQL-oaeTqndDHkn238WcTrEI")
+# Lấy Token từ biến môi trường trên Railway (hoặc thay trực tiếp token bot của mày vào đâ"8882626353:AAFlup4z-OxSQL-oaeTqndDHkn238WcTrEI")
+TOKEN = os.getenv("TOKEN")
 
 # Danh sách 100 câu chửi tục / câu spam vô hạn
 spam_texts = [
